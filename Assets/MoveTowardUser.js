@@ -1,3 +1,5 @@
+// Script B: Movement Logic
+
 //@input SceneObject targetObject
 //@input SceneObject cameraObject
 //@input float speed = 1.0
@@ -15,5 +17,9 @@ function update(eventData) {
     targetTransform.setWorldPosition(newPosition);
 }
 
+// Expose the movement function to be called from other scripts
+script.api.moveTowardsUser = function() {
+    print("MoveTowardUser started");
+    script.createEvent("UpdateEvent").bind(update);  // Bind the update function to continuously move the object
+};
 
-script.createEvent("UpdateEvent").bind(update);

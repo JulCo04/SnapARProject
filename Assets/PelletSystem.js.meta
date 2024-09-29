@@ -29,6 +29,8 @@
     {}
   DefaultScriptInputs:
     - pelletPrefab: !<reference.ObjectPrefab> 586e0c37-43d4-47e1-bc19-4b5a9c89f757
+      startButton: !<reference.Button> 00000000-0000-0000-0000-000000000000
+      capsuleObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

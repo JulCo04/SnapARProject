@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/3f4b72f7-26a6-4f28-bc52-139b51b4dc97>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ee5ad39b-5d9a-4c83-ac23-53a5b2fd0057
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ee5ad39b-5d9a-4c83-ac23-53a5b2fd0057
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> b2c7c52b-9ead-49c0-8864-7473cee2eaf6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/b5749eea-152c-4503-9887-4fdf81a86fcf>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b2c7c52b-9ead-49c0-8864-7473cee2eaf6>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cameraObject: false
+    pelletPrefab: false
+    speed: false
+    startScreen: false
+    targetObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - capsuleButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      capsule: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      interactable: !<reference.Interactable> 00000000-0000-0000-0000-000000000000
+      pelletPrefab: !<reference.ObjectPrefab> 586e0c37-43d4-47e1-bc19-4b5a9c89f757
+      startScreen: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      speed: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
