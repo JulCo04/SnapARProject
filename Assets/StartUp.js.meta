@@ -24,7 +24,6 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    cameraObject: false
     pelletPrefab: false
     speed: false
     startScreen: false

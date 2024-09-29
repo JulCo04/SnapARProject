@@ -4,7 +4,6 @@
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> 597f6fa4-23e5-4230-9e74-1ece142cd000
-    - !<own> e583b244-7042-4df1-8e70-a65b187521a6
     - !<own> 4c4c7590-cd15-4793-b9a3-1b4586be4e20
     - !<own> 54abf374-a155-4c69-9563-11b2c0d20e71
     - !<own> db94becd-1a4d-4970-bea1-3fe4189342f3
@@ -2630,22 +2629,6 @@
   Components:
     - !<own> f06aeab8-8504-4680-858f-1c99d66c3617
     - !<own> fce2c749-e2d4-4522-b9f9-6be2f3f374d5
-- !<ScriptComponent/44e9f7d1-942c-4fa9-be9d-66308dab3ec4>
-  PrefabRemaps:
-    []
-  Name: PelletSystem
-  Enabled: true
-  ScriptAsset: !<reference> bf129930-caf8-4d0c-b84c-800284c77207
-  ScriptInputsDefault:
-    pelletPrefab: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      pelletPrefab: !<reference.ObjectPrefab> 586e0c37-43d4-47e1-bc19-4b5a9c89f757
-  ScriptTypes:
-    "":
-      {}
 - !<ColliderComponent/4554a398-750b-46ca-bee6-de662ecde352>
   PrefabRemaps:
     []
@@ -5567,7 +5550,6 @@
       pelletPrefab: !<reference.ObjectPrefab> 586e0c37-43d4-47e1-bc19-4b5a9c89f757
       startScreen: !<reference.SceneObject> 54abf374-a155-4c69-9563-11b2c0d20e71
       targetObject: !<reference.SceneObject> 4c4c7590-cd15-4793-b9a3-1b4586be4e20
-      cameraObject: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
       speed: !<float> 1.000000
   ScriptTypes:
     "":
@@ -8662,21 +8644,6 @@
     InvertRotation: false
   SurfaceOptions: !<SurfaceOptions/00000000-0000-0000-0000-000000000000>
     EnhanceWithNativeAR: false
-- !<SceneObject/e583b244-7042-4df1-8e70-a65b187521a6>
-  PrefabRemaps:
-    []
-  Name: PelletSystem
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 44e9f7d1-942c-4fa9-be9d-66308dab3ec4
 - !<Text/e5d9f198-2c0a-4b4c-8626-df0b5e689957>
   PrefabRemaps:
     []

@@ -4,47 +4,6 @@
     - !<own> 16743c88-13ee-4bca-9fc9-bdd9b3a1e152
   LazyLoading: false
   RetainAssets: true
-- !<ScriptComponent/0f4e911d-e598-440b-8c0c-b8a0c53f4019>
-  PrefabRemaps:
-    []
-  Name: TweenTransform
-  Enabled: false
-  ScriptAsset: !<reference> 09619442-54ea-4339-b261-73c6d9adaf85
-  ScriptInputsDefault:
-    start: true
-    end: true
-    from: true
-    to: true
-    additive: true
-    time: true
-    delay: true
-    isLocal: true
-    easingFunction: true
-    easingType: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      sceneObjectReference: !<reference.SceneObject> 16743c88-13ee-4bca-9fc9-bdd9b3a1e152
-      tweenName: box_rotate
-      playAutomatically: false
-      loopType: 1
-      type: 2
-      movementType: 3
-      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      end: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      offset: !<Vec3> {x: 0.000000, y: 180.000000, z: 0.000000}
-      additive: false
-      time: !<float> 1.000000
-      delay: !<float> 0.000000
-      isLocal: true
-      easingFunction: Quadratic
-      easingType: Out
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/16743c88-13ee-4bca-9fc9-bdd9b3a1e152>
   PrefabRemaps:
     []
@@ -57,55 +16,13 @@
     scale: {x: 10.000000, y: 10.000000, z: 10.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> ed21fa88-dea8-44cd-80d2-588d41b182c8
+    []
   Components:
     - !<own> 94794a78-4aa9-453f-99ae-c74433d876e4
     - !<own> 83dc21a3-6f26-4d77-a80b-b338fc2165e3
     - !<own> 7105860c-4661-4d6c-a916-54234513e18a
     - !<own> 7d0fe0fe-667b-46d7-aca6-b57cc4892e89
     - !<own> a9a04d33-eb45-482e-903a-0588d659d271
-- !<ScriptComponent/401f24cf-cf4e-4b6f-b19d-8b7500071c27>
-  PrefabRemaps:
-    []
-  Name: TweenTransform
-  Enabled: true
-  ScriptAsset: !<reference> 09619442-54ea-4339-b261-73c6d9adaf85
-  ScriptInputsDefault:
-    type: true
-    movementType: true
-    start: true
-    from: true
-    to: true
-    offset: true
-    time: true
-    delay: true
-    isLocal: true
-    easingFunction: true
-    easingType: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      sceneObjectReference: !<reference.SceneObject> 16743c88-13ee-4bca-9fc9-bdd9b3a1e152
-      tweenName: box_move
-      playAutomatically: false
-      loopType: 1
-      type: 0
-      movementType: 0
-      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      end: !<Vec3> {x: 10.000000, y: -20.000000, z: -100.000000}
-      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      additive: true
-      time: !<float> 1.000000
-      delay: !<float> 0.000000
-      isLocal: true
-      easingFunction: Quadratic
-      easingType: Out
-  ScriptTypes:
-    "":
-      {}
 - !<RenderMeshVisual/7105860c-4661-4d6c-a916-54234513e18a>
   PrefabRemaps:
     []
@@ -208,19 +125,3 @@
   ScriptTypes:
     "":
       {}
-- !<SceneObject/ed21fa88-dea8-44cd-80d2-588d41b182c8>
-  PrefabRemaps:
-    []
-  Name: ExampleTransformTweens
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 0.100000, y: 0.100000, z: 0.100000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 0f4e911d-e598-440b-8c0c-b8a0c53f4019
-    - !<own> 401f24cf-cf4e-4b6f-b19d-8b7500071c27
