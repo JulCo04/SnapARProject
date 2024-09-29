@@ -5551,6 +5551,27 @@
   Components:
     - !<own> 89d23c7c-cd40-4933-a24d-c456cdeec408
     - !<own> c32234e2-149d-442f-bc96-05133dde8abf
+- !<ScriptComponent/869b4c16-0dfa-4176-afb8-d71a471156f6>
+  PrefabRemaps:
+    []
+  Name: StartUp
+  Enabled: true
+  ScriptAsset: !<reference> ee5ad39b-5d9a-4c83-ac23-53a5b2fd0057
+  ScriptInputsDefault:
+    pelletPrefab: true
+    speed: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pelletPrefab: !<reference.ObjectPrefab> 586e0c37-43d4-47e1-bc19-4b5a9c89f757
+      startScreen: !<reference.SceneObject> 54abf374-a155-4c69-9563-11b2c0d20e71
+      targetObject: !<reference.SceneObject> 4c4c7590-cd15-4793-b9a3-1b4586be4e20
+      cameraObject: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      speed: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
 - !<Text/86aaebb1-a475-4081-acbc-0f83ec5c7bc9>
   PrefabRemaps:
     []
@@ -8446,6 +8467,7 @@
     - !<own> 66cd75f4-8090-43ff-837c-b0ed7452c02f
     - !<own> af98a82a-27ed-4e9b-a304-36540fcc4f20
     - !<own> 9c864098-8279-42db-b4bd-3bb528643730
+    - !<own> 869b4c16-0dfa-4176-afb8-d71a471156f6
 - !<ColliderComponent/df2324cb-affd-47a2-b8e9-849558c9b9d4>
   PrefabRemaps:
     []
@@ -8949,6 +8971,7 @@
     xAlways: true
     yAlways: true
     worldSnapping: true
+    showFollowButton: true
     isFollowing: true
   ScriptTypesDefault:
     {}
@@ -8973,7 +8996,7 @@
       useSnapping: true
       itemSnapping: true
       worldSnapping: false
-      showFollowButton: true
+      showFollowButton: false
       useFOVFollow: true
       isFollowing: false
       showCloseButton: false

@@ -1,7 +1,11 @@
 CollapsedEntities:
   type: stringset
   value:
+<<<<<<< HEAD
     size: 362
+=======
+    size: 345
+>>>>>>> 765f9a5dfb5715ee36087fe47017256c9d3963f1
     values:
       - Base 1.png
       - Base.png
@@ -107,6 +111,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
       - SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
       - SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
+      - SpectaclesInteractionKit/Components
       - SpectaclesInteractionKit/Components/Helpers
       - SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
       - SpectaclesInteractionKit/Components/Helpers/InteractableAudioFeedback.ts
@@ -348,6 +353,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
       - Sphere.mesh
+<<<<<<< HEAD
       - TweenManager
       - TweenManager/.hidden
       - TweenManager/.hidden/Image Unlit.ss_graph
@@ -363,6 +369,9 @@ CollapsedEntities:
       - TweenManager/TweenManager.prefab
       - flat.ss_graph
       - pbr 1.ss_graph
+=======
+      - StartUp.js
+>>>>>>> 765f9a5dfb5715ee36087fe47017256c9d3963f1
       - pbr.ss_graph
       - simple_pbr.ss_graph
   options: 4
