@@ -26,7 +26,9 @@
   ScriptInputsHidden:
     cameraObject: false
     distance: false
+    score: false
     speed: false
+    startMenu: false
     targetObject: false
   ScriptTypesHidden:
     {}
@@ -36,6 +38,8 @@
       cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       gameOverScreen: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       distance: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      startMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      score: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

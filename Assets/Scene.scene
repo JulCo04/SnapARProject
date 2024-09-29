@@ -2113,6 +2113,8 @@
       cameraObject: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
       distance: !<reference.Text> 69415742-1f70-4de6-9e3f-718de9540b3f
       speed: !<float> 80.000000
+      startMenu: !<reference.SceneObject> 54abf374-a155-4c69-9563-11b2c0d20e71
+      score: !<reference.Text> 7135a47e-68e0-4e93-890e-35b552a1f70b
   ScriptTypes:
     "":
       {}
@@ -2931,7 +2933,10 @@
     top: 0.000000
 - !<SceneObject/4c4c7590-cd15-4793-b9a3-1b4586be4e20>
   PrefabRemaps:
-    []
+    - 2d0ae569-c9b8-4393-bb88-e0f7be5fad23: 39c29c6a-3328-4d39-9514-92256b6ee898
+    - 3333748a-ff6b-425b-8401-cafd1a2b9982: bba07867-5313-40ed-86dd-d6cf6c497112
+    - 4c4c7590-cd15-4793-b9a3-1b4586be4e20: 8e961e83-a656-4338-a953-1584c0498c67
+    - acf90cfc-f94d-4f39-85e8-c2d76a623732: 54310ba6-0205-481e-bf87-c3b18bc85334
   Name: Ghost
   Enabled: true
   Layers: 1
@@ -2944,6 +2949,7 @@
     []
   Components:
     - !<own> 2d0ae569-c9b8-4393-bb88-e0f7be5fad23
+    - !<own> acf90cfc-f94d-4f39-85e8-c2d76a623732
     - !<own> 3333748a-ff6b-425b-8401-cafd1a2b9982
 - !<SceneObject/4c6050c6-12a2-418a-9b12-aec4bf1c69b2>
   PrefabRemaps:
@@ -5550,6 +5556,7 @@
       pelletPrefab: !<reference.ObjectPrefab> 586e0c37-43d4-47e1-bc19-4b5a9c89f757
       startScreen: !<reference.SceneObject> 54abf374-a155-4c69-9563-11b2c0d20e71
       targetObject: !<reference.SceneObject> 4c4c7590-cd15-4793-b9a3-1b4586be4e20
+      cameraObj: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
       speed: !<float> 1.000000
   ScriptTypes:
     "":
@@ -6921,6 +6928,25 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ColliderComponent/acf90cfc-f94d-4f39-85e8-c2d76a623732>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+    Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<SceneObject/acfafae6-1021-48cc-917d-f217697d187a>
   PrefabRemaps:
     []
@@ -8939,7 +8965,6 @@
     yAlways: true
     worldSnapping: true
     showFollowButton: true
-    isFollowing: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -8965,7 +8990,7 @@
       worldSnapping: false
       showFollowButton: false
       useFOVFollow: true
-      isFollowing: false
+      isFollowing: true
       showCloseButton: false
   ScriptTypes:
     "":

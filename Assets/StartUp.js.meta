@@ -24,6 +24,7 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    cameraObj: false
     pelletPrefab: false
     speed: false
     startScreen: false
@@ -39,6 +40,7 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       speed: !<float> 1.000000
+      cameraObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

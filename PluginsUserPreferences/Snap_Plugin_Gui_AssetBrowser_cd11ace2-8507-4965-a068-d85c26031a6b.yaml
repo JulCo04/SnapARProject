@@ -1,8 +1,10 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 5
+    size: 7
     values:
+      - Ghost.prefab
+      - MoveTowardUser.js
       - SpectaclesInteractionKit
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/package.native
