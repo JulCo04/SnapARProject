@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 344
+    size: 342
     values:
       - Base 1.png
       - Base.png
@@ -13,13 +13,13 @@ CollapsedEntities:
       - Echopark.hdr/Specular
       - MaterialParams.png
       - MeshMaterial.mat
+      - MoveTowardUser.js
       - Normal.png
       - PBR.mat
       - Pellet.prefab
       - PelletSystem.js
       - Render Target.renderTarget
       - Scene.scene
-      - SpectaclesInteractionKit
       - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
@@ -146,8 +146,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineMaterial.mat
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineRenderer.ts
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineVisual.ts
-      - SpectaclesInteractionKit/Components/UI
-      - SpectaclesInteractionKit/Components/UI/ContainerFrame
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/FrameMaterial.mat

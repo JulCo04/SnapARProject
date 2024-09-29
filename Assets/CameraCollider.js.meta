@@ -24,12 +24,13 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    {}
+    pelletPrefab: false
+    textComponent: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    -
-      {}
+    - textComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      pelletPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
