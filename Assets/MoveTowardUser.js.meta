@@ -25,6 +25,7 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     cameraObject: false
+    distance: false
     speed: false
     targetObject: false
   ScriptTypesHidden:
@@ -34,6 +35,7 @@
       speed: !<float> 1.000000
       cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       gameOverScreen: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distance: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

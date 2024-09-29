@@ -1,25 +1,30 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 342
+    size: 362
     values:
       - Base 1.png
       - Base.png
       - Behavior.js
       - CameraCollider.js
+      - Cylinder.mesh
       - Device Camera Texture.deviceCameraTexture
       - Echopark.hdr
       - Echopark.hdr/Diffuse
       - Echopark.hdr/Specular
+      - Image.mat
+      - Image.png
       - MaterialParams.png
       - MeshMaterial.mat
       - MoveTowardUser.js
       - Normal.png
+      - PBR 1.mat
       - PBR.mat
       - Pellet.prefab
       - PelletSystem.js
       - Render Target.renderTarget
       - Scene.scene
+      - SpectaclesInteractionKit
       - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
@@ -343,6 +348,21 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
       - Sphere.mesh
+      - TweenManager
+      - TweenManager/.hidden
+      - TweenManager/.hidden/Image Unlit.ss_graph
+      - TweenManager/.hidden/TweenBoxDiffuse.ss_graph
+      - TweenManager/Tween/Tween.js
+      - TweenManager/Tween/TweenManager.js
+      - TweenManager/Tween/TweenTypes/TweenAlpha.js
+      - TweenManager/Tween/TweenTypes/TweenChain.js
+      - TweenManager/Tween/TweenTypes/TweenColor.js
+      - TweenManager/Tween/TweenTypes/TweenScreenTransform.js
+      - TweenManager/Tween/TweenTypes/TweenTransform.js
+      - TweenManager/Tween/TweenTypes/TweenValue.js
+      - TweenManager/TweenManager.prefab
+      - flat.ss_graph
+      - pbr 1.ss_graph
       - pbr.ss_graph
       - simple_pbr.ss_graph
   options: 4

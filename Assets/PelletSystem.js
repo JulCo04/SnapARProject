@@ -9,7 +9,7 @@ script.createEvent("OnStartEvent").bind(function() {
         
         var pellet = script.pelletPrefab.instantiate(script.getSceneObject());
         
-        var position = new vec3(startPosition.x, startPosition.y, startPosition.z + (i * 100) * -1);
+        var position = new vec3(startPosition.x, startPosition.y, 100 + startPosition.z + (i * -100));
 
         pellet.getTransform().setWorldPosition(position);
 
