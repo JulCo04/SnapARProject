@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/80e35d41-6ac0-4f1c-abf5-7c1841c0da8f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> bd5763e0-48d6-4060-94ea-d10d0997e5ce
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> bd5763e0-48d6-4060-94ea-d10d0997e5ce
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7e5977b3-f147-428b-b693-0fb32a6f7dee
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/fabc4d3f-5bac-44a4-9411-6df2c8c7f1ef>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/7e5977b3-f147-428b-b693-0fb32a6f7dee>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cameraObject: false
+    speed: false
+    targetObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      speed: !<float> 1.000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameOverScreen: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
