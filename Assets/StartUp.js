@@ -37,7 +37,7 @@ function goAwayGhost() {
     script.targetObject.getTransform().setWorldPosition(new vec3(400 + camPos.x, 0, 400 + camPos.z));
 }
 
-function onTouch(eventData) {
+function onTouch() {
     script.startScreen.enabled = false;
     print("Start Pellets");
     instantiatePellets();      // Instantiate the pellets
@@ -47,4 +47,4 @@ function onTouch(eventData) {
 }
 
 // Register the touch event to call the function
-script.createEvent("TapEvent").bind(onTouch);
+script.createEvent("OnStartEvent").bind(onTouch);

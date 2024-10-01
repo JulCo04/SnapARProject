@@ -20,13 +20,14 @@ metaInfo:
     []
   tags:
     []
-  lensName: Specs Starter
+  lensName: Pellet Panic
   lensDescriptors:
     []
   lensApplicability:
     - Front
     - Back
   lensClientCompatibilities:
+    - Mobile
     - Spectacles
   iconHash: ""
   videoPreviewHash: ""

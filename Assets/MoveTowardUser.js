@@ -8,16 +8,16 @@
 //@input SceneObject startMenu
 //@input Component.Text score
 
-var collider = script.targetObject.getComponent("Physics.ColliderComponent")
-collider.onOverlapEnter.add(function(e) {
-    if(e.overlap.collider.getSceneObject().name === "Camera Object") {
-        script.startMenu.enabled = true;
-        script.targetObject.enabled = false;
-        // RESET
-        
-        script.score.text = 0;
-    }
-});
+//var collider = script.targetObject.getComponent("Physics.ColliderComponent")
+//collider.onOverlapEnter.add(function(e) {
+//    if(e.overlap.collider.getSceneObject().name === "Camera Object") {
+//        script.startMenu.enabled = true;
+//        script.targetObject.enabled = false;
+//        // RESET
+//        
+//        script.score.text = 0;
+//    }
+//});
 
 function update(eventData) {
     if (!script.targetObject || !script.cameraObject) {
